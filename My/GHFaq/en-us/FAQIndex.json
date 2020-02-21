@@ -1,17 +1,53 @@
 [
-	{
-		"text": "11Using the Subscriber Portal",
-		"id": "Section1",
-		"children":[ "q1_1","q1_2","q1_3","q1_4","q1_4"]
-	},
-	{
-		"text": "Downloading and activating software",
-		"id": "Section2",
-		"children":[ "q2_1","q2_2","q2_3"]
-	},
-	{
-		"text": "Activating Subscription benefits",
-		"id": "Section3",
-		"children":[ "q3_1","q3_2"]
-	}	
+  {
+    "text": "Using the Subscriber Portal (my.visualstudio.com)",
+    "id": "Section1",
+    "children": [
+      "q1_1",
+      "q1_2",
+      "q1_3",
+      "q1_4",
+      "q1_5"
+    ]
+  },
+  {
+    "text": "Downloading and Activating Software",
+    "id": "Section2",
+    "children": [
+      "q2_1",
+      "q2_2",
+      "q2_3"
+    ]
+  },
+  {
+    "text": "Activating Subscription Benefits",
+    "id": "Section3",
+    "children": [
+      "q3_1",
+      "q3_2"
+    ]
+  },
+  {
+    "text": "Renewals",
+    "id": "Section4",
+    "children": [
+      "q4_1",
+      "q4_2"
+    ]
+  },
+  {
+    "text": "Azure Monthly Credit",
+    "id": "Section5",
+    "children": [
+      "q5_1",
+      "q5_2",
+      "q5_3",
+      "q5_4",
+      "q5_5",
+      "q5_6",
+      "q5_7",
+      "q5_8",
+      "q5_9"
+    ]
+  }
 ]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "q1_1",
+    "faq": "¿Debo iniciar sesión con mi correo electrónico del trabajo o con mi correo personal?",
+    "ans": "Para acceder a una suscripción, debe iniciar sesión con la dirección de correo electrónico a la que está asignada la suscripción. En la mayoría de los casos, la suscripción la asigna el lugar de trabajo o el centro educativo, por lo que es aconsejable usar las credenciales y la dirección de correo electrónico profesional o educativa para iniciar sesión en el portal de suscriptores."
+  },
+  {
+    "id": "q1_2",
+    "faq": "¿Cómo puedo acceder al portal de suscriptores de Visual Studio sin conocer las credenciales de inicio de sesión asociadas a mi correo electrónico del trabajo?",
+    "ans": "Si no está seguro de cuáles son sus credenciales de correo electrónico del trabajo o de AAD, pregunte al administrador de la red. Por motivos de privacidad, Microsoft no puede proporcionar información sobre credenciales."
+  },
+  {
+    "id": "q1_3",
+    "faq": "¿Cómo puedo encontrar a mi administrador si tengo alguna pregunta?",
+    "ans": "Si la suscripción se la proporcionó su lugar de trabajo o su centro educativo, puede ponerse en contacto con los administradores que constan en el contrato para obtener asistencia. Solo tiene que conectarse a <a href=\"https://my.visualstudio.com/subscriptions\" target=\"_blank\">https://my.visualstudio.com/subscriptions</a> y hacer clic en el botón “Quiero ponerme en contacto con mi administrador”. Para obtener más información, consulte el artículo <a href=\"https://docs.microsoft.com/en-us/visualstudio/subscriptions/contact-my-admin\" target=\"_blank\">Obtención de ayuda del administrador de suscripciones</a>."
+  },
+  {
+    "id": "q1_4",
+    "faq": "¿Cuándo expira mi suscripción?",
+    "ans": "La información sobre sus suscripciones está disponible en el portal de suscriptores. Conéctese a <a href=\"https://my.visualstudio.com/subscriptions\" target=\"_blank\">https://my.visualstudio.com/subscriptions</a> para ver una lista de sus suscripciones y datos como la fecha de expiración e información de soporte técnico. Las suscripciones Retail se pueden renovar también en esa página. <div class=\"clear\"></div>Las suscripciones en la nube adquiridas a través del Visual Studio Marketplace se renuevan automáticamente; por tanto, si usa una suscripción en la nube mensual o anual, no tiene que preocuparse de que expire hasta que la cancele."
+  },
+  {
+    "id": "q1_5",
+    "faq": "¿Cómo puedo agregar identidades alternativas a mi suscripción y cómo afecta esto a mi crédito de Azure y a Azure DevOps?",
+    "ans": "Si agrega una cuenta alternativa a su suscripción de Visual Studio, puede acceder a las ventajas de la suscripción, como Azure DevOps y Azure, con una identidad diferente a la que tiene asignada la suscripción. Antes, esta funcionalidad solo estaba disponible si la suscripción de Visual Studio (VS) estaba asignada a una cuenta de Microsoft (MSA). Hemos ampliado esta funcionalidad a las cuentas profesionales o educativas de Azure Active Directory (Azure AD).<div class=\"clear\"></div>Esto no proporciona una copia de la suscripción a la otra cuenta; simplemente ofrece la posibilidad de acceder a las dos ventajas con la cuenta alternativa.<div class=\"clear\"></div>En todas las suscripciones puede agregar una “cuenta profesional o educativa” para usarla con las ventajas que requieren un inicio de sesión (IDE de VS, Azure DevOps y Azure).<div class=\"clear\"></div>Agregar un identificador alternativo es fácil. Conéctese a <a href=\"https://my.visualstudio.com/subscriptions\" target=\"_blank\">https://my.visualstudio.com/subscriptions</a>, haga clic en “Agregar cuenta alternativa”, escriba la dirección de correo electrónico y haga clic en “Agregar”. Si desea obtener más información sobre el uso de identidades alternativas, eche un vistazo al artículo <a href=\"https://docs.microsoft.com/en-us/visualstudio/subscriptions/vs-alternate-identity\" target=\"_blank\">Identidades alternativas</a>."
+  },
+  {
+    "id": "q2_1",
+    "faq": "¿Qué descargas de software hay disponibles?",
+    "ans": "Las descargas de software disponibles dependen de las suscripciones que tenga. Si tiene más de una suscripción, las descargas para la suscripción del nivel <span class=\"gh-bold\">highest</span> están visibles en todas sus suscripciones. Esto le facilita obtener las descargas que desee sin tener que cambiar de suscripción.<div class=\"clear\"></div>Eche un vistazo a esta <a href=\"http://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx\" target=\"_blank\">lista de descargas disponibles por nivel de suscripción</a>. Si desea obtener más información sobre descargas, consulte los siguientes artículos:<ul><li><a href=\"https://docs.microsoft.com/en-us/visualstudio/subscriptions/product-availability\" target=\"_blank\">Disponibilidad de productos para descargas de software en suscripciones de Visual Studio</a></li><li><a href=\"https://docs.microsoft.com/en-us/visualstudio/subscriptions/download-software\" target=\"_blank\">Descarga de títulos de software en suscripciones de Visual Studio</a></li></ul>"
+  },
+  {
+    "id": "q2_2",
+    "faq": "¿Cómo puedo activar el software que acabo de descargar usando las claves del producto?",
+    "ans": "No siempre es necesario activar un producto. En algunos casos, una misma clave se puede usar varias veces. En general, si se requiere una clave de producto, se le pedirá que la escriba durante el proceso de instalación o la primera vez que use el producto.<div class=\"clear\"></div>Las claves de producto se pueden obtener en dos sitios:<ul><li>Al <a href=\"https://my.visualstudio.com/downloads\" target=\"_blank\">descargar</a> un producto, puede hacer clic en el vínculo “Get Key” (Obtener clave) que aparece junto al producto que va a descargar.</li><li>También puede buscar claves en la página <a href=\"https://my.visualstudio.com/ProductKeys\" target=\"_blank\">Claves de productos</a> del portal de suscriptores.</li></ul>Si desea obtener más información sobre cómo obtener y usar claves de producto, consulte estos artículos:<ul><li><a href=\"https://docs.microsoft.com/en-us/visualstudio/subscriptions/product-keys\" target=\"_blank\">Uso de claves de producto en suscripciones de Visual Studio</a></li><li><a href=\"https://docs.microsoft.com/en-us/visualstudio/subscriptions/find-keys\" target=\"_blank\">Búsqueda y reclamación de claves de producto en suscripciones de Visual Studio</a></li></ul>"
+  },
+  {
+    "id": "q2_3",
+    "faq": "¿Cómo puedo acceder a las claves del producto cuando expira mi suscripción?",
+    "ans": "Para acceder a las claves de productos después de haber expirado su suscripción, debe exportar las claves solicitadas <span class=\"gh-bold\">before</span> de que expire la suscripción. Una vez que haya expirado, no podrá recuperar las claves.<div class=\"clear\"></div>Para exportar las claves, basta con hacer clic en el vínculo Export all keys (Exportar todas las claves) en el extremo derecho de la página <a href=\"https://my.visualstudio.com/ProductKeys\" target=\"_blank\">Claves de producto</a>. Esto creará un archivo .xml con el nombre KeysExport.xml y podrá abrirlo o guardarlo. Deberá abrir el archivo con una aplicación que admita archivos .xml. Por ejemplo, puede abrir el archivo como un libro de solo lectura en Excel. El archivo contendrá las claves que haya solicitado y también las claves “estáticas”, que se solicitan automáticamente."
+  },
+  {
+    "id": "q3_1",
+    "faq": "¿Qué ventajas hay disponibles?",
+    "ans": "Las ventajas disponibles varían en función del nivel de suscripción y están sujetas a cambios. Para ver qué ventajas incluye cada nivel de suscripción, visite <a href=\"https://visualstudio.microsoft.com/vs/benefits/\" target=\"_blank\">https://visualstudio.microsoft.com/vs/benefits/</a>. Puede seleccionar la suscripción que le interese y ver qué ventajas hay disponibles en las diferentes categorías: Herramientas, Azure, Software y descargas, Servicios, Aprendizaje y Soporte técnico."
+  },
+  {
+    "id": "q3_2",
+    "faq": "¿Cómo puedo usar mis ventajas?",
+    "ans": "Al igual que varían los tipos de ventajas, también varían los métodos para activarlas y usarlas. Por ejemplo, muchas de las ventajas las proporcionan asociados y los procesos para configurar cuentas, instalar el software y usar los recursos en línea varían mucho.<div class=\"clear\"></div>Para cada ventaja disponible en el portal de suscriptores, proporcionamos artículos que incluyen información como qué suscripciones la incluyen y los pasos para activarla.<div class=\"clear\"></div>Si desea obtener más información, visite <a href=\"https://docs.microsoft.com/visualstudio/subscriptions\" target=\"_blank\">https://docs.microsoft.com/visualstudio/subscriptions </a>, haga clic en “Suscripciones” en el panel de navegación izquierdo y elija “Beneficios”."
+  },
+  {
+    "id": "q4_1",
+    "faq": "¿Cómo puedo renovar una suscripción Retail? ¿Cuál es el período de renovación?",
+    "ans": "Si tiene una suscripción Retail, hay dos formas de renovarla:<ul><li>Conéctese a <a href=\"https://my.visualstudio.com/subscriptions\" target=\"_blank\">https://my.visualstudio.com/subscriptions</a> y haga clic en el vínculo 'Renovar'. </li><li>Visite <a href=\"https://www.microsoft.com/store/b/home?rtc=1\" target=\"_blank\">Microsoft Store</a> y busque 'Suscripción de Visual Studio' para ver las oportunidades de renovación disponibles. Algunos vínculos rápidos:<ul><li><a href=\"https://www.microsoft.com/p/visual-studio-enterprise-subscription/dg7gmgf0dst4?activetab=pivot%3aoverviewtab\" target=\"_blank\" aria-label=\"Visual Studio Enterprise\"> Visual Studio Enterprise </a> </li><li><a href=\"https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab\" target=\"_blank\" aria-label=\"Visual Studio Professional\"> Visual Studio Professional </a></li><li><a href=\"https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab\" target=\"_blank\" aria-label=\"Visual Studio Test Professional\"> Visual Studio Test Professional </a></li></ul></li></ul>Nota: Debe renovar la suscripción en un plazo de 30 días desde la fecha de expiración para poder disfrutar del precio de renovación."
+  },
+  {
+    "id": "q4_2",
+    "faq": "¿Cómo puedo renovar una suscripción en la nube?",
+    "ans": "Las suscripciones de nube mensuales y anuales se renuevan automáticamente hasta que se cancelan, por lo que no es necesario hacer nada para renovarlas."
+  },
+  {
+    "id": "q5_1",
+    "faq": "¿Cuál es el crédito mensual de Azure?",
+    "ans": "Las suscripciones de nube mensuales y anuales se renuevan automáticamente hasta que se cancelan, por lo que no es necesario hacer nada para renovarlas."
+  },
+  {
+    "id": "q5_2",
+    "faq": "¿Cuánto cuesta?",
+    "ans": "El uso de este crédito es gratuito. Está incluido en la suscripción de Visual Studio. Cuando acabe el crédito que tiene asignado para el mes, no podrá seguir usándolo hasta que se restablezca el mes siguiente."
+  },
+  {
+    "id": "q5_3",
+    "faq": "¿Cómo puedo comenzar?",
+    "ans": "Para obtener más información sobre cómo configurar el crédito de Azure, lea la sección “Pasos para la activación” del artículo <a href=\"https://docs.microsoft.com/en-us/visualstudio/subscriptions/vs-azure\" target=\"_blank\">Usar Microsoft Azure en suscripciones de Visual Studio</a>."
+  },
+  {
+    "id": "q5_4",
+    "faq": "¿Puedo usar mi crédito mensual de Azure para ejecutar aplicaciones de producción?",
+    "ans": "El crédito mensual de Azure para suscriptores de Visual Studio es específico para un uso individual de desarrollo y pruebas. Para ejecutar cargas de trabajo de producción, deberá cambiar a una suscripción de Azure de pago; por ejemplo, <a href=\"https://azure.microsoft.com/en-us/offers/ms-azr-0003p/\" target=\"_blank\">Pago por uso</a>."
+  },
+  {
+    "id": "q5_5",
+    "faq": "¿Puedo usar mi cuenta profesional para iniciar sesión?",
+    "ans": "Para activar el crédito debe usar el correo electrónico asociado a la suscripción de Visual Studio o la cuenta alternativa. Si desea obtener más información sobre el uso de identidades alternativas, eche un vistazo al artículo <a href=\"https://docs.microsoft.com/en-us/visualstudio/subscriptions/vs-alternate-identity\" target=\"_blank\">Identidades de los suscriptores de Visual Studio</a>."
+  },
+  {
+    "id": "q5_6",
+    "faq": "¿Hay alguna restricción geográfica o de servicio que afecte a esta ventaja?",
+    "ans": "Las suscripciones de Azure que se hayan creado a través de la ventaja de las suscripciones de Visual Studio pueden verse afectadas por restricciones que no se aplican a las suscripciones de pago. Es posible que, en algunas zonas geográficas, no se puedan crear máquinas virtuales ni servicios de Azure, y puede que algunos tipos de servicios no estén disponibles. Puede haber una cuota predeterminada inferior que en las suscripciones de pago."
+  },
+  {
+    "id": "q5_7",
+    "faq": "Mi organización tiene varios suscriptores de Visual Studio. ¿Se puede agrupar su crédito mensual de Azure?",
+    "ans": "No se puede agrupar crédito. Esta ventaja está pensada para el uso personal del suscriptor de Visual Studio."
+  },
+  {
+    "id": "q5_8",
+    "faq": "¿Hay alguna otra limitación que deba tener en cuenta?",
+    "ans": "El crédito mensual de Azure para suscriptores de Visual Studio es solo para desarrollo y pruebas, por lo que no tiene un acuerdo de nivel de servicio con respaldo financiero. Nos reservamos el derecho a suspender cualquier instancia (máquina virtual o servicio en la nube) que se ejecute de forma continuada durante más 120 horas o si determinamos que la instancia se está usando para producción. Hacemos lo posible para que esta capacidad esté disponible para los suscriptores de Visual Studio, pero no garantizamos que siempre lo esté.<div class=\"clear\"></div>El crédito mensual no se puede usar para la compra de los siguientes servicios:<ul><li>Planes de soporte técnico</li><li>Application Insights</li><li>Suscripciones de Visual Studio</li><li>Azure DevOps </li><li>Visual Studio App Center </li><li>Productos de terceros </li><li>Productos vendidos en <a href=\"https://marketplace.visualstudio.com/\" target=\"_blank\">Visual Studio Marketplace</a></li><li>Productos vendidos de otro modo aparte de Azure (por ejemplo, Azure Active Directory Premium)</li></ul><div class=\"clear\"></div>Para adquirir estos servicios, deberá quitar el <a href=\"https://docs.microsoft.com/en-us/azure/billing/billing-spending-limit\" target=\"_blank\">límite de gasto</a> y proporcionar una tarjeta de crédito para la facturación."
+  },
+  {
+    "id": "q5_9",
+    "faq": "¿Dónde se puede obtener más información?",
+    "ans": "Para obtener más información sobre cómo funciona el crédito de Azure, visite la página <a href=\"https://azure.microsoft.com/en-us/pricing/member-offers/credit-for-visual-studio-subscribers/\" target=\"_blank\">Créditos mensuales de Azure para suscriptores de Visual Studio</a>."
+  }
+]
