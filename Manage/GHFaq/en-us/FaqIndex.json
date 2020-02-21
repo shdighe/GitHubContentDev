@@ -10,7 +10,7 @@
 		"children":[ "q2_1","q2_2","q2_3"]
 	},
 	{
-		"text": "Signing In",
+		"text": "Signing In..",
 		"id": "Section3",
 		"children":[ "q3_1","q3_2"]
 	}	
