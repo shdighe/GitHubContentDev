@@ -30,15 +30,7 @@
 	{ "id":"q2_3",
 		"faq":"What benefits and software are available?",
 		"ans":"q2_3_Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "	
-	},
-	{ "id":"q3_1",
-		"faq":"What is the difference between using a Microsoft Account vs Work account?",
-		"ans":"q3_1_Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "	
-	},
-	{ "id":"q3_2",
-		"faq":"What does it mean when my subscribers add alternate identities?",
-		"ans":"q3_2_Lorem ipsum dolor sit amet, consectetur adipiscing elit"	
-	}	
+	}
 ]
 
 
