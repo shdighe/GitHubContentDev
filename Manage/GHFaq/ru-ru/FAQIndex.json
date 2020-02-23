@@ -1,6 +1,6 @@
 [
   {
-    "text": "Managing Visual Studio Subscriptions",
+    "text": "Управление Подписками Visual Studio",
     "id": "Section1",
     "children": [
       "group1_1",
@@ -14,7 +14,7 @@
     ]
   },
   {
-    "text": "Software Downloads and Benefits",
+    "text": "Скачивание программного обеспечения и использование преимуществ",
     "id": "Section2",
     "children": [
       "group2_1",
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "text": "Signing In",
+    "text": "Выполняется вход",
     "id": "Section3",
     "children": [
       "group3_1",
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "text": "Renewal and Cancellation",
+    "text": "Продление и отмена",
     "id": "Section4",
     "children": [
       "group4_1",

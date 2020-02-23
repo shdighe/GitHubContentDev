@@ -1,6 +1,6 @@
 [
   {
-    "text": "Managing Visual Studio Subscriptions",
+    "text": "Visual Studio 구독 관리",
     "id": "Section1",
     "children": [
       "group1_1",
@@ -14,7 +14,7 @@
     ]
   },
   {
-    "text": "Software Downloads and Benefits",
+    "text": "소프트웨어 다운로드 및 혜택",
     "id": "Section2",
     "children": [
       "group2_1",
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "text": "Signing In",
+    "text": "로그인",
     "id": "Section3",
     "children": [
       "group3_1",
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "text": "Renewal and Cancellation",
+    "text": "갱신 및 취소",
     "id": "Section4",
     "children": [
       "group4_1",

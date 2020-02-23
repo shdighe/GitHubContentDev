@@ -1,6 +1,6 @@
 [
   {
-    "text": "Managing Visual Studio Subscriptions",
+    "text": "Verwalten von Visual Studio-Abonnements",
     "id": "Section1",
     "children": [
       "group1_1",
@@ -14,7 +14,7 @@
     ]
   },
   {
-    "text": "Software Downloads and Benefits",
+    "text": "Softwaredownloads und Vorteile",
     "id": "Section2",
     "children": [
       "group2_1",
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "text": "Signing In",
+    "text": "Anmelden",
     "id": "Section3",
     "children": [
       "group3_1",
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "text": "Renewal and Cancellation",
+    "text": "Verlängerung und Kündigung",
     "id": "Section4",
     "children": [
       "group4_1",

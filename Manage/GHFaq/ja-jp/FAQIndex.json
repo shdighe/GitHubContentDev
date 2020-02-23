@@ -1,6 +1,6 @@
 [
   {
-    "text": "Managing Visual Studio Subscriptions",
+    "text": "Visual Studio サブスクリプションの管理",
     "id": "Section1",
     "children": [
       "group1_1",
@@ -14,7 +14,7 @@
     ]
   },
   {
-    "text": "Software Downloads and Benefits",
+    "text": "ソフトウェア ダウンロードと特典",
     "id": "Section2",
     "children": [
       "group2_1",
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "text": "Signing In",
+    "text": "サインイン",
     "id": "Section3",
     "children": [
       "group3_1",
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "text": "Renewal and Cancellation",
+    "text": "更新とキャンセル",
     "id": "Section4",
     "children": [
       "group4_1",

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "group1_1",
+    "faq": "我是新管理员。哪里能找到我需要了解的所有内容？",
+    "ans": "<span> <a href='https://visualstudio.microsoft.com/subscriptions-administration/' target='_blank'>管理员网页</a>提供了所有更新、视频和重要链接。有关成为管理员的书面指导，请参阅此<a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/admin-responsibilities' target='_blank'>文档</a>。</span>\r\n    "
+  },
+  {
+    "id": "group1_2",
+    "faq": "如何管理管理员？",
+    "ans": "<span><div class='vladmin'>如果是超级管理员，则可以添加或删除其他超级管理员或管理员。管理员只能添加或删除订阅者且无法看到 manage.visualstudio.com 上面的“管理管理员”选项卡。<div class='clear'></div>若要管理管理员：<ol>\r\n                <li>选择 <a href='https://manage.visualstudio.com' target='_blank'>manage.visualstudio.com</a> 页面顶部的<a href='https://manage.visualstudio.com/administrators' target='_blank'>管理管理员</a>选项卡。</li>\r\n                <li>若要添加，请选择“添加”并键入要添加人的姓名和电子邮件地址，从下拉菜单中选择适当的协议，选择他们接收欢迎电子邮件所采用的语言，然后选择“超级管理员”。</li>\r\n                <li>若要删除，只需选择要删除的人并选择“删除”。</li>\r\n            </ol></div>\r\n            <div class='clear'></div><div class='cloudadmin'>云订阅由分配给用于购买云订阅的 Azure 订阅的管理员管理。订阅的所有者将自动分配为第一个管理员。<div class='clear'></div>要分配更多管理员：<ol>\r\n                <li>在 <a href='https://portal.azure.com' target='_blank'>portal.azure.com</a> 连接到 Azure 门户</li>\r\n                <li>使用用于购买 Visual Studio 云订阅的帐户登录。</li>\r\n                <li>在左侧导航窗格中，向下滚动到“成本管理 + 计费”<span class='gh-bold'></span>。</li>\r\n                <li>在“我的订阅”列表中，选择用于进行购买的 Azure 订阅<span class='gh-bold'></span>。</li>\r\n                <li>左侧导航窗格中列表顶部附近单击“访问控制”<span class='gh-bold'></span>。</li>\r\n                <li>在页面顶部单击“添加”选项卡<span class='gh-bold'></span>。</li>\r\n                <li>在右侧弹出窗格中，单击想让其成为管理员的订阅者的姓名。</li>\r\n                <li>在窗格顶部单击“角色”下拉列表，向下滚动，然后选择“用户访问管理员”<span class='gh-bold'></span><span class='gh-bold'></span>。</li>\r\n                <li>单击“保存”<span class='gh-bold'></span>。</li>\r\n            </ol><a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/cloud-admin' target='_blank'>详细了解</a>云订阅管理。</div></span>"
+  },
+  {
+    "id": "group1_3",
+    "faq": "如何分配 Visual Studio 订阅？",
+    "ans": "<span>可以每次为最终用户分配一个订阅，还可以使用“批量添加”功能一次性快速轻松地上传大量订阅者。 <div class='clear'></div>要单独分配订阅<span class='gh-bold'></span>：<ol>\r\n                <li>选择 <a href='https://manage.visualstudio.com' target='_blank'>manage.visualstudio.com</a> 页面顶部的<a href='https://manage.visualstudio.com/subscribers' target='_blank'>“管理订阅者”选项卡</a></li>\r\n                <li>选择“添加”并键入要向其分配订阅的用户的姓名和电子邮件地址。<ul>\r\n                        <li>如果组织使用的是 Azure Active Directory，可使用名称字段搜索查找当前的主管级人员。可以从搜索结果中进行选择，或者手动添加人员。</li>\r\n                    </ul>\r\n                </li>\r\n                <li>如果想要订阅者在登录到 <a href='https://my.visualstudio.com/' target='_blank'>Visual Studio 订阅门户</a>后有权访问软件下载，请确保将“下载设置”部分中的下载开关保持为启用状态<span class='gh-bold'></span>。</li>\r\n                <li>完成“通信偏好”部分，以便我们知道采用何种语言向订阅者发送分配电子邮件。</li>\r\n                <li>如果想添加与分配相关的任何注释，请使用“引用”选项。</li>\r\n                <li>选择弹出面板底部的“添加”以完成订阅分配。订阅者将收到一封电子邮件，然后即可立刻开始使用 Visual Studio 订阅（无需订阅者激活）。</li>\r\n            </ol>若要批量分配订阅<span class='gh-bold'></span>：<ol>\r\n                <li>选择 <a href='https://manage.visualstudio.com' target='_blank'>manage.visualstudio.com</a> 页面顶部的<a href='https://manage.visualstudio.com/subscribers' target='_blank'>“管理订阅者”选项卡</a></li>\r\n                <li>选择“批量添加”，下载 Excel 模板并保存本地副本。</li>\r\n                <li>除了“引用”字段，所有字段都是必填项。<ol>\r\n                        <li>确保所有表单域均不含逗号。</li>\r\n                        <li>删除表单域前后的空格。</li>\r\n                        <li>确保在由两部分构成的名字或姓氏之间不包含额外的空格（例如，如果某人的名字由两部分组成，比如“Maggie May”，则不得键入“MaggieMay”）</li>\r\n                    </ol>\r\n                </li>\r\n                <li>返回到 manage.visualstudio.com，选择“批量添加”，并上传保存的 Excel 模板副本。</li>\r\n                <li>上传成功后，将看到确认页面以及已填充了新订阅者的订阅者列表。订阅者将收到一封电子邮件，然后即可立刻开始使用 Visual Studio 订阅（无需订阅者激活） </li>\r\n            </ol>阅读有关<a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/assign-license#individual-assignments' target='_blank'>在 Visual Studio 订阅管理员门户中分配订阅</a>的更多信息，详细了解如何快速轻松地分配订阅。</span>"
+  },
+  {
+    "id": "group1_4",
+    "faq": "登录电子邮件地址和通知电子邮件地址有什么区别？",
+    "ans": "<span> 分配到订阅的个人将定期收到 Visual Studio 团队的通信，包括告知他们已向其分配订阅的电子邮件。如果这些电子邮件应该发送到单独的电子邮件地址，而不是登录到 <a href='https://my.visualstudio.com/' target='_blank'>Visual Studio 订阅门户</a>或 VS IDE 的地址，则可以在添加订阅者或编辑现有订阅者时添加通知电子邮件地址。</span>"
+  },
+  {
+    "id": "group1_5",
+    "faq": "我有新协议。 如何移动我的订阅者？",
+    "ans": "<span>可以使用“批量添加”按钮从以前的协议导出订阅者，并将他们添加到新协议中。<div class='clear'></div>注意：为订阅者分配新订阅时，他们将收到电子邮件<span class='gh-bold'></span>。了解有关<a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/exporting-subscriptions' target='_blank'>导出订阅者</a>和使用<a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/assign-license#bulk-assignments' target='_blank'>批量添加</a>功能的详细信息。如果先前的协议中有超过 200 个订阅者，我们的<a href='https://visualstudio.microsoft.com/subscriptions/support/#talktous' target='_blank'>支持团队可以提供帮助</a>。选择“帐户、订阅和付费支持”，然后选择你所在的国家/地区。可通过电子邮件、聊天或电话获取支持，具体取决于你的所在位置。</span>"
+  },
+  {
+    "id": "group1_6",
+    "faq": "为什么门户网站没有显示协议的正确订阅数量？",
+    "ans": "<span> 如果协议的订阅数目不正确，可能是在 <a href='https://manage.visualstudio.com' target='_blank'>https://manage.visualstudio.com </a> 门户中选择了错误的协议。单击左上角的下拉列表查看所有可用协议。如果订阅数目仍然不正确，我们的<a href='https://visualstudio.microsoft.com/subscriptions/support/#talktous' target='_blank'>支持团队可以提供帮助。</a>选择“帐户、订阅和付费支持”，然后选择你所在的国家/地区。可通过电子邮件、聊天或电话获取支持，具体取决于你的所在位置。</span>"
+  },
+  {
+    "id": "group1_7",
+    "faq": "如何选择订阅的结束日期？",
+    "ans": "<span> 订阅将始终分配到最合理的结束日期。例如，如果协议中一些订单的结束日期为 6/20/2020，而另一订单的结束日期为 2021/6/20，则通过这两种可用订单分配的第一个订阅的结束日期将为 2021/6/20。如果有处于过度分配状态的信任协议，则结束日期将为从分配订阅之日起 3 年后。</span>"
+  },
+  {
+    "id": "group1_8",
+    "faq": "为什么我的 SLP 协议有结束日期？为什么有时订阅者的结束日期不同？",
+    "ans": "<span> SLP 和 MPSA 协议不会过期，但是我们的门户目前在预配协议时需要提供结束日期。目前，SLP 下的每个订单的结束日期都在生效起 20 多年以后。如果在 SLP 协议下有多个开始日期不同的订单，那么它们的结束日期也不同。</span>"
+  },
+  {
+    "id": "group2_1",
+    "faq": "最终用户如何激活他们的订阅？",
+    "ans": "<span> 订阅处于活跃状态，从 Visual Studio 管理员门户内分配后即立即可用。订阅者可以立即登录到 <a href='https://my.visualstudio.com/' target='_blank'>Visual Studio 订阅者门户</a>或 VS IDE，并且将收到欢迎电子邮件，告知他们订阅已分配。</span>"
+  },
+  {
+    "id": "group2_2",
+    "faq": "分配订阅后，订阅者可以获得哪些权益和软件？",
+    "ans": "<span> 在 <a href='https://visualstudio.microsoft.com/vs/benefits/' target='_blank'>Visual Studio 订阅权益</a>页面，可以查看和比较 Visual Studio 订阅包含的权益和<a href='https://docs.microsoft.com/en-ca/visualstudio/subscriptions/software-download-list' target='_blank'>软件下载</a>的完整列表（基于订阅级别）。</span>"
+  },
+  {
+    "id": "group2_3",
+    "faq": "开发人员如何使用产品密钥激活软件？",
+    "ans": "<span> 根据订阅者下载的不同产品，可使用与订阅绑定的电子邮件地址进行登录来激活产品，或者，订阅者还可以通过在 Visual Studio 订阅者门户中<a href='https://docs.microsoft.com/en-ca/visualstudio/subscriptions/product-keys' target='blank'>声明产品密钥</a>来将其激活。</span>"
+  },
+  {
+    "id": "group2_4",
+    "faq": "开发人员如何以 50% 的折扣获得 Azure 开发测试工作负荷？",
+    "ans": "<span> 如果组织拥有 Azure 的企业协议，开发人员可以在 50 至 150 美元的 Azure 额度和 50% 折扣的开发/测试价格之间进行选择。不能对同一订阅使用两种优惠。要详细了解如何为开发人员启用开发/测试定价选项，请查看标题为<a href='https://aka.ms/HelpingSubscriberswithAzure' target='_blank'>“帮助订阅者充分利用 Azure”</a>的视频。</span>"
+  },
+  {
+    "id": "group3_1",
+    "faq": "使用 Microsoft 帐户与使用工作帐户有什么区别？",
+    "ans": "<span> Microsoft 帐户 (MSA) 是个人拥有的个人电子邮件帐户，当组织不使用 Office 365 或 Azure Active Directory 的托管租户时，可使用该帐户访问 Microsoft 服务。工作帐户由发布它的组织拥有，用于访问 Office 365 或 Azure Active Directory 租户上的服务。有关 MSA 和工作帐户之间的差异的完整信息，请查看<a href='https://aka.ms/MSAvsAAD' target='_blank'>“了解使用 MSA（Microsoft 帐户）和使用工作帐户（Azure Active Directory 或 Office 365）的差异以及该差异对组织的影响”</a>。</span>"
+  },
+  {
+    "id": "group3_2",
+    "faq": "订阅者添加备用标识有何用途？",
+    "ans": "<span> 通过添加备用帐户，开发人员可使用不同于订阅所分配到的标识来享受 Visual Studio 订阅权益（VS IDE、Azure DevOps 和 Azure）。这不会向其他帐户提供订阅副本；仅可用于使用备用帐户获得这些权益。<a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/vs-alternate-identity' target='_blank'> 了解有关 Visual Studio 订阅标识的更多信息</a>。</span>"
+  },
+  {
+    "id": "group4_1",
+    "faq": "如何续订订阅？",
+    "ans": "<span> 续订订阅的过程取决于购买方式。 <div class='clear'></div><span class='gh-bold'>零售：</span>对于通过 Microsoft Store 获取的订阅，请连接到 Microsoft Store 的<a href='https://www.microsoft.com/store/b/software?icid=Cnav_software_businesssoftware&amp;activetab=pivot1%3arichpivot1-1' target='_blank'>业务软件</a>部分，然后向下滚动到 Visual Studio 部分查看可用订阅。请务必选择续订订阅级别，然后<a href='https://my.visualstudio.com/subscriptions/activate' target='_blank'>在此处激活</a>。<div class='clear'></div><span class='gh-bold'>云订阅：</span>如果使用的是云订阅，则无需续订。它们会自动更新，直到取消它们。<div class='clear'></div>详细了解<a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/vscloud-overview' target='_blank'>购买云订阅</a>。<div class='clear'></div><span class='gh-bold'>批量许可：</span>若要续订通过批量许可购买的订阅，请与经销商联系。在你所在的区域<a href='https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy' target='_blank'>查找经销商</a>。</span>"
+  },
+  {
+    "id": "group4_2",
+    "faq": "取消云订阅需要多长时间？",
+    "ans": "<span> 取消 Visual Studio 云订阅时，会同时取消自动续订。订阅会一直持续到正常的续订日期，并于该日期后直接过期。到期后，Visual Studio 订阅者无法继续使用 Visual Studio 或订阅中的任何其他权益。<div class='clear'></div>对于月度云订阅，取消在次月第一天生效。如果只取消部分月度云订阅，请务必在次月的第一天删除用户，确保为正确的人员继续分配有效订阅。<div class='clear'></div>对于年度云订阅，取消在最初购买日 12 个月后的次月第一天生效，或在上一次年度续订收费后的 12 个月后生效。例如，如果在 2018 年 1 月 3 日购买了 Visual Studio Professional 年度云订阅，那么它会保持活动状态，直到 2019 年 2 月 1 日自动续订一年。如果在 2020 年 2 月 1 日之前的任何时间取消订阅，则订阅将于 2020 年 2 月 1 日到期。对于年度云订阅取消后的剩余部分，不会进行退款。<div class='clear'></div>有关云订阅的其他信息，请参阅<a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/vscloud-billing-faq#how-charges-are-processed' target='blank'>如何收费</a>主题。</span>"
+  }
+]
