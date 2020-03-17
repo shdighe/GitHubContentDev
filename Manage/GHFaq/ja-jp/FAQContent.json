@@ -1,0 +1,82 @@
+[
+  {
+    "id": "group1_1",
+    "faq": "新しい管理者です。必要な情報はどこにありますか。",
+    "ans": "<span> <a href='https://visualstudio.microsoft.com/subscriptions-administration/' target='_blank'>管理者の Web ページ</a>には、ご自身の更新プログラム、ビデオ、および重要なリンクすべてが含まれています。また、Microsoft の<a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/admin-responsibilities' target='_blank'>ドキュメント</a>では、管理者の心得に関するガイダンスを確認できます。</span>\r\n    "
+  },
+  {
+    "id": "group1_2",
+    "faq": "管理者を管理するにはどうすればよいですか。",
+    "ans": "<span><div class='vladmin'>スーパー管理者は、他のスーパー管理者または管理者を追加または削除できます。管理者が追加または削除できるのはサブスクライバーだけであるため、管理者の manage.visualstudio.com には [管理者の管理] タブは表示されません。<div class='clear'></div>管理者を管理するには:<ol>\r\n                <li><a href='https://manage.visualstudio.com' target='_blank'>manage.visualstudio.com</a> のページ上部にある <a href='https://manage.visualstudio.com/administrators' target='_blank'>[管理者の管理]</a> タブを選択します。</li>\r\n                <li>追加するには、[追加] を選択し、追加するユーザーの名前とメール アドレスを入力して、ドロップ ダウン メニューから適切な契約を選択します。次に、ウェルカム メールを受信する言語を選択し、[スーパー管理者] を選択します。</li>\r\n                <li>削除するには、削除するユーザーを選択し、[削除] を選択するだけです。</li>\r\n            </ol></div>\r\n            <div class='clear'></div><div class='cloudadmin'>クラウド サブスクリプションを管理するのは、そのクラウド サブスクリプションの購入に使用された Azure サブスクリプションに割り当てられた管理者です。サブスクリプションの所有者は、自動的に最初の管理者として割り当てられます。<div class='clear'></div>管理者をさらに割り当てるには:<ol>\r\n                <li>Azure portal (<a href='https://portal.azure.com' target='_blank'>portal.azure.com</a>) にアクセスします</li>\r\n                <li>Visual Studio クラウド サブスクリプションの購入に使用したアカウントでサインインします。</li>\r\n                <li>左側のナビゲーション ウィンドウで下にスクロールし、<span class='gh-bold'>[コストの管理と請求]</span> に移動します。</li>\r\n                <li><span class='gh-bold'>[個人用サブスクリプション]</span> リストで、購入に使用した Azure サブスクリプションを選択します。</li>\r\n                <li>左側のナビゲーション ウィンドウのリストの一番上の近くにある <span class='gh-bold'>[アクセス制御]</span> をクリックします。</li>\r\n                <li>ページ上部にある <span class='gh-bold'>[追加]</span> タブをクリックします。</li>\r\n                <li>右側のフライアウト ウィンドウで、管理者にするサブスクライバーの名前をクリックします。</li>\r\n                <li>ウィンドウ上部にある <span class='gh-bold'>[ロール]</span> ドロップダウンをクリックし、下にスクロールして、<span class='gh-bold'>[ユーザー アクセス管理者]</span> を選択します。</li>\r\n                <li><span class='gh-bold'>[保存]</span> をクリックします。</li>\r\n            </ol>クラウド サブスクリプション管理の<a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/cloud-admin' target='_blank'>詳細</a>についてご確認ください。</div></span>"
+  },
+  {
+    "id": "group1_3",
+    "faq": "Visual Studio サブスクリプションを割り当てるにはどうすればよいですか。",
+    "ans": "<span>一度に 1 つずつサブスクリプションをエンド ユーザーに割り当てることができます。また、一括追加機能を使用して、一度に多数のサブスクライバーを迅速かつ簡単にアップロードすることも可能です。 <div class='clear'></div>サブスクリプションを<span class='gh-bold'>個別に</span>割り当てるには:<ol>\r\n                <li><a href='https://manage.visualstudio.com' target='_blank'>manage.visualstudio.com</a> のページ上部にある <a href='https://manage.visualstudio.com/subscribers' target='_blank'>[サブスクライバーを管理] タブ</a>を選択します</li>\r\n                <li>[追加] を選択し、サブスクリプションの割り当て先ユーザーの名前とメール アドレスを入力します。<ul>\r\n                        <li>Azure Active Directory が使用されている組織の場合は、名前フィールドによって、現在のディレクトリでユーザーが検索されます。検索結果からユーザーを選択するか、手動で追加します。</li>\r\n                    </ul>\r\n                </li>\r\n                <li>サブスクライバーが <a href='https://my.visualstudio.com/' target='_blank'>Visual Studio サブスクリプション ポータル</a>にサインインするときにソフトウェアのダウンロードにアクセスできるようにする場合は、<span class='gh-bold'>[ダウンロードの設定]</span> セクションでダウンロードのトグルをオンのままにします。</li>\r\n                <li>[通信設定] セクションに必要な情報を入力して、サブスクライバー割り当てメールの言語を指定します。</li>\r\n                <li>割り当てに関連付けられているメモを追加するには、[参照] セクションを使用してください。</li>\r\n                <li>フライアウト ウィンドウ下部にある [追加] を選択して、サブスクリプション割り当てを完了します。メールを受信したサブスクライバーはすぐに、Visual Studio サブスクリプションを使用し始めることができます (サブスクライバーからアクティブにする必要はありません)。</li>\r\n            </ol>サブスクリプションを<span class='gh-bold'>一括で割り当てる</span>には:<ol>\r\n                <li><a href='https://manage.visualstudio.com' target='_blank'>manage.visualstudio.com</a> のページ上部にある <a href='https://manage.visualstudio.com/subscribers' target='_blank'>[サブスクライバーを管理] タブ</a>を選択します</li>\r\n                <li>[一括追加] を選択し、Excel テンプレートをダウンロードして、ローカル コピーを保存します。</li>\r\n                <li>[参照] フィールドを除くすべてのフィールドが必須です。<ol>\r\n                        <li>フォームのどのフィールドにもコンマが含まれていないことを確認します。</li>\r\n                        <li>フォームのフィールドの前後のスペースを削除します。</li>\r\n                        <li>名または姓が 2 つの部分で構成される場合は、その間に余分なスペースを挿入しないようにします (たとえば、「Maggie May」のように名が 2 つの部分で構成される場合は、「MaggieMay」と入力する必要があります)</li>\r\n                    </ol>\r\n                </li>\r\n                <li>manage.visualstudio.com に戻って、[一括追加] を選択し、Excel テンプレートの保存済みコピーをアップロードします。</li>\r\n                <li>アップロードが成功すると、確認ページが表示され、ご自身のサブスクリプション リストに新しいサブスクライバーが示されます。メールを受信したサブスクライバーはすぐに、Visual Studio サブスクリプションを使用し始めることができます (サブスクライバーからアクティブにする必要はありません) </li>\r\n            </ol>サブスクリプションを迅速かつ簡単に割り当てる方法の詳細については、<a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/assign-license#individual-assignments' target='_blank'>Visual Studio サブスクリプション管理者ポータルでのサブスクリプションの割り当て</a>に関する情報を参照してください。</span>"
+  },
+  {
+    "id": "group1_4",
+    "faq": "サインイン メール アドレスと通知メール アドレスの違いは何ですか? ",
+    "ans": "<span> サブスクリプションが割り当てられた個人には、サブスクリプションが割り当てられたことを知らせるメールなどの通知が、Visual Studio チームから定期的に届きます。これらのメールを、<a href='https://my.visualstudio.com/' target='_blank'>Visual Studio サブスクリプション ポータル</a>または VS IDE にサインインするときのアドレスではないメール アドレスに送信する必要がある場合は、サブスクライバーを追加するとき、または既存のサブスクライバーを編集するときに、通知メール アドレスを追加できます。</span>"
+  },
+  {
+    "id": "group1_5",
+    "faq": "新しい契約があります。 自分のサブスクライバーを移動するにはどうすればよいですか。",
+    "ans": "<span>[一括追加] ボタンを使用して、以前の契約からサブスクライバーをエクスポートし、新しい契約に追加できます。<div class='clear'></div><span class='gh-bold'>注:</span> 新しいサブスクリプションがサブスクライバーに割り当てられたとき、そのサブスクライバーにはメールが届きます。<a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/exporting-subscriptions' target='_blank'>サブスクライバーのエクスポート</a>および<a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/assign-license#bulk-assignments' target='_blank'>一括追加</a>機能の使用に関する詳細をご確認ください。以前の契約のサブスクライバーが 200 人を超える場合、Microsoft の<a href='https://visualstudio.microsoft.com/subscriptions/support/#talktous' target='_blank'>サポートチームがサポートいたします</a>。「アカウント、サブスクリプション、および課金サポート」を選択し、ご自身の国を選択します。ご自身の場所に応じて、メール、チャット、または電話でサポートをご利用いただけます。</span>"
+  },
+  {
+    "id": "group1_6",
+    "faq": "自分の契約サブスクリプションの数がポータルに正しく表示されないのはなぜですか。",
+    "ans": "<span> ご自身の契約サブスクリプションの数が正しく表示されない場合は、<a href='https://manage.visualstudio.com' target='_blank'>https://manage.visualstudio.com</a> ポータルで間違った契約が選択した可能性があります。左上にあるドロップダウンをクリックすると、使用可能なすべての契約が表示されます。表示されているサブスクリプション数がまだ間違っている場合は、Microsoft の<a href='https://visualstudio.microsoft.com/subscriptions/support/#talktous' target='_blank'>サポート チームがサポートいたします。</a>「アカウント、サブスクリプション、および課金サポート」を選択し、ご自身の国を選択します。ご自身の場所に応じて、メール、チャット、または電話でサポートをご利用いただけます。</span>"
+  },
+  {
+    "id": "group1_7",
+    "faq": "サブスクリプションの終了日を選択するにはどうすればよいですか。",
+    "ans": "<span> サブスクリプションは必ず、利用できる最善の終了日を使用して割り当てられます。たとえば、終了日が 2020 年 6 月 20 日の注文と、終了日が 2021 年 6 月 20 日の注文が契約に含まれる場合、使用可能なこの 2 つから割り当てられる最初のサブスクリプションは 2021 年 6 月 20 日に終了します。割り当て超過状態の信頼できる契約がある場合、終了日は、サブスクリプションが割り当てられた日の 3 年後になります。</span>"
+  },
+  {
+    "id": "group1_8",
+    "faq": "自分の SLP 契約に終了日があるのはなぜですか。また、自分のサブスクライバーの終了日が異なることがあるのはなぜですか。",
+    "ans": "<span> SLP および MPSA 契約は期限切れになりませんが、現在、Microsoft のポータルでは、契約をプロビジョニングするときに終了日が必要です。現在、SLP の各注文の終了日には、今から 20 年以上先の日付が使用されます。日付が異なる SLP 契約に複数の注文がある場合は、その終了日がそれぞれ異なることになります。</span>"
+  },
+  {
+    "id": "group2_1",
+    "faq": "エンド ユーザーが自身のサブスクリプションをアクティブにするにはどうすればよいですか。",
+    "ans": "<span> サブスクリプションはアクティブで、Visual Studio 管理者ポータル内から割り当てられるとすぐに使用できます。サブスクライバーは <a href='https://my.visualstudio.com/' target='_blank'>Visual Studio サブスクライバー ポータル</a>または VS IDE に直ちにサインインできます。また、サブスクリプションが割り当てられたことを知らせるウェルカム メールも届きます。</span>"
+  },
+  {
+    "id": "group2_2",
+    "faq": "サブスクリプションが割り当てられると、サブスクライバーはどのような特典とソフトウェアを利用できますか。",
+    "ans": "<span> <a href='https://visualstudio.microsoft.com/vs/benefits/' target='_blank'>Visual Studio サブスクリプションの特典</a>ページでは、サブスクリプション レベルに基づいて、Visual Studio サブスクリプションに含まれる特典と<a href='https://docs.microsoft.com/en-ca/visualstudio/subscriptions/software-download-list' target='_blank'>ソフトウェア ダウンロード</a>の一覧を確認し、比較できます。</span>"
+  },
+  {
+    "id": "group2_3",
+    "faq": "開発者がプロダクト キーを使用してソフトウェアをアクティブにするにはどうすればよいですか。",
+    "ans": "<span> サブスクライバーがダウンロードした製品に応じて、サブスクリプションに関連付けられたメール アドレスを使用してログインすることで、そのサブスクリプションをアクティブにしたり、サブスクライバーが Visual Studio サブスクライバー ポータルから<a href='https://docs.microsoft.com/en-ca/visualstudio/subscriptions/product-keys' target='blank'>プロダクト キーを要求して</a>アクティブにしたりできます。</span>"
+  },
+  {
+    "id": "group2_4",
+    "faq": "開発者が Azure 開発テスト ワークロードの 50% 割引を受けるにはどうすればよいですか。",
+    "ans": "<span> 組織が Azure の Enterprise Agreement を結んでいる場合、開発者は 50 ドルから 150 ドルの間の Azure クレジットか、Dev/Test 価格の 50% 割引を選択できます。同じサブスクリプションで両方を使用することはできません。開発者に対して Dev/Test 価格オプションを有効にする方法の詳細については、「<a href='https://aka.ms/HelpingSubscriberswithAzure' target='_blank'>Help your subscribers get the most out of Azure</a> (サブスクライバーが Azure を最大限活用できるように助ける)」というタイトルのビデオをご覧ください。</span>"
+  },
+  {
+    "id": "group3_1",
+    "faq": "Microsoft アカウントと職場アカウントの使用の違いは何ですか。",
+    "ans": "<span> Microsoft アカウント (MSA) は個人が所有する個人用メール アカウントで、組織で Office 365 または Azure Active Directory のマネージド テナントが使用されていないときに、Microsoft サービスにアクセスするときに使用されます。職場アカウントは、そのアカウントを発行する組織が所有するもので、Office 365 またはAzure Active Directory テナントでサービスにアクセスするときに使用されます。MSA と職場アカウントの違いの詳細については、「<a href='https://aka.ms/MSAvsAAD' target='_blank'>MSA (Microsoft アカウント) と職場アカウント (Azure Active Directory または Office 365) の使用の違いと、これが組織に及ぼす影響に関する詳細情報</a>」をご確認ください。</span>"
+  },
+  {
+    "id": "group3_2",
+    "faq": "\\\"サブスクライバーが代替 ID を追加している段階\\\" とはどういう意味ですか。",
+    "ans": "<span> 代替アカウントを追加すると、開発者が、Visual Studio サブスクリプションが割り当てられているものとは異なる ID を利用して、そのサブスクリプションの特典のいくつか (VS IDE、Azure DevOps、および Azure) にアクセスできます。サブスクリプションのコピーが他のアカウントに与えられるわけではなく、代替アカウントを利用して 2 つの特典にアクセスする機能のみが与えられます。<a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/vs-alternate-identity' target='_blank'> Visual Studio サブスクリプション ID の詳細を参照してください</a>。</span>"
+  },
+  {
+    "id": "group4_1",
+    "faq": "自分のサブスクリプションを更新するにはどうすればよいですか。",
+    "ans": "<span> サブスクリプションの更新プロセスは、サブスクリプションを購入した方法によって異なります。 <div class='clear'></div><span class='gh-bold'>小売:</span>Microsoft Store から入手したサブスクリプションについては、Microsoft Store の<a href='https://www.microsoft.com/store/b/software?icid=Cnav_software_businesssoftware&amp;activetab=pivot1%3arichpivot1-1' target='_blank'>ビジネス ソフトウェア</a> セクションに接続し、下にスクロールして Visual Studio セクションに移動します。これにより、使用可能なサブスクリプションが表示されます。更新サブスクリプション レベルを選択し、<a href='https://my.visualstudio.com/subscriptions/activate' target='_blank'>こちらでアクティブにします</a>。<div class='clear'></div><span class='gh-bold'>クラウド サブスクリプション:</span>クラウド サブスクリプションを使用している場合、更新する必要はありません。キャンセルするまで、自動的に更新されます。<div class='clear'></div><a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/vscloud-overview' target='_blank'>クラウド サブスクリプション購入</a>の詳細をご確認ください。<div class='clear'></div><span class='gh-bold'>ボリューム ライセンス:</span>ボリューム ライセンスで購入したサブスクリプションを更新するには、リセラーにお問い合わせください。お住まいの地域の<a href='https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy' target='_blank'>リセラーを検索</a>してください。</span>"
+  },
+  {
+    "id": "group4_2",
+    "faq": "自分のクラウド サブスクリプションのキャンセルにはどのくらい時間がかかりますか。",
+    "ans": "<span> Visual Studio クラウド サブスクリプションをキャンセルすると、自動更新がキャンセルされます。サブスクリプションは通常の更新日まで継続され、その後、期限切れになります。期限が切れると、Visual Studio サブスクライバーは、Visual Studio またはサブスクリプションからの他のすべての特典を使用できなくなります。<div class='clear'></div>クラウド サブスクリプション月間プランでは、キャンセルは次の月の最初の日に有効になります。クラウド サブスクリプション月間プランの一部だけをキャンセルする場合は、次の月の最初の日にユーザーを削除し、適切なユーザーが引き続きアクティブなサブスクリプションを割り当てられるようにしてください。<div class='clear'></div>クラウド サブスクリプション年間プランの場合は、元の購入または最後の年間更新請求から 12 か月が経過した後の月の最初の日にキャンセルが有効になります。たとえば、2018 年 1 月 3 日に Visual Studio Professional クラウド サブスクリプション年間プランを購入した場合、2019 年 2 月 1 日に次の年の自動更新が行われるまで、サブスクリプションはアクティブです。2019 年 2 月 1 日から 2020 年 2 月 1 日までの間にキャンセルした場合、サブスクリプションは 2020 年 2 月 1 日に期限切れになります。クラウド サブスクリプション年間プランのサブスクリプション年の途中でキャンセルした場合の払い戻しはありません。<div class='clear'></div>クラウド サブスクリプションの詳細については、<a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/vscloud-billing-faq#how-charges-are-processed' target='blank'>料金の処理方法</a>に関するトピックをご覧ください。</span>"
+  }
+]

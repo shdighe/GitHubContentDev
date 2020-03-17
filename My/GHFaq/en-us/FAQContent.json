@@ -1,42 +1,107 @@
 [
-	{ "id":"q1_1",
-		"faq":"Should I sign in using my work email or my personal email?",
-		"ans":"To access a subscription, you should sign in with the email address to which the subscription is assigned. In most cases the subscription was assigned by your work or school, so you will want to use your work or school email and credentials to sign in to the Subscriber Portal."	
-	},
-	{ "id":"q1_2",
-		"faq":"How do I access the My Visual Studio Subscribers Portal without knowing my login credentials associated with my work email?",
-		"ans":"If your subscription was provided to you by your work or school, you can reach out to the administrator(s) on the agreement for assistance.  Just connect to <a href='https://my.visualstudio.com/subscriptions' target='_blank'>https://my.visualstudio.com/subscriptions</a> and click on the 'Contact my Admin' button.For more information, check out our <a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/contact-my-admin' target='_blank'>Contact your subscriptions administrator</a> article."
-	},
-	{ "id":"q1_3",
-		"faq":"How do I find my admin if I have a question?",
-		"ans":"If your subscription was provided to you by your work or school, you can reach out to the administrator(s) on the agreement for assistance.  Just connect to <a href='https://my.visualstudio.com/subscriptions' target='_blank'>https://my.visualstudio.com/subscriptions</a> and click on the 'Contact my Admin' button.For more information, check out our <a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/contact-my-admin' target='_blank'>Contact your subscriptions administrator</a> article."
-	},
-	{ "id":"q1_4",
-		"faq":"When does my subscription expire?",
-		"ans":"Information about your subscription(s) is available in the Subscriber Portal. Connect to <a href='https://my.visualstudio.com/subscriptions' target='_blank'>https://my.visualstudio.com/subscriptions</a> to see a list of your subscriptions and to view             information such as expiration dates and support information.  For retail subscriptions, you can also renew your subscription(s) from that page. <div class='clear'></div>            Cloud subscriptions purchased through the Visual Studio Marketplace renew automatically, so if you’re using a monthly or annual cloud subscription, you don’t have to worry about it expiring until you cancel it."	
-	},
-	{ "id":"q1_5",
-		"faq":"Should I sign in using my work email or my personal email?",
-		"ans":"Adding an alternate account to your Visual Studio subscription allows you to access the subscription benefits, like Azure DevOps and Azure,            with a different identity than that which the subscription is assigned to. In the past, this functionality was available only if your Visual Studio (VS) subscription was assigned to a Microsoft Account (MSA).            We have extended this functionality for work or school accounts in Azure Active Directory (Azure AD).            <div class='clear'></div>            This doesn’t provide a copy of subscription to the other account; it only provides the ability to access the two benefits with the alternate account.             <div class='clear'></div>            For all subscriptions, you can add a 'work or school account' so you can use that account with your benefits that require a login (VS IDE, Azure DevOps, and Azure).             <div class='clear'></div>            Adding an alternate ID is easy.  Connect to <a href='https://my.visualstudio.com/subscriptions' target='_blank'>https://my.visualstudio.com/subscriptions</a>, click on 'Add alternate account', enter the email address and click 'Add'.              For more information on using alternate identities, check out our <a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/vs-alternate-identity' target='_blank'>Alternate identities</a> article."
-	},
-	{ "id":"q2_1",
-		"faq":"What software downloads are available?",
-		"ans":"The software downloads available depends on the subscription(s) you have. If you have more than one subscription, the downloads for the <span class='gh-bold'>highest</span> level subscription are visible from within all of your subscriptions.            This makes it easy to get the downloads you want without switching between subscriptions.            <div class='clear'></div>            Check out this <a href='http://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx' target='_blank'>list of the downloads available by subscription level</a>.             For more information about downloads, see the following articles:             <ul>                <li><a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/product-availability' target='_blank'>Product availability</a></li>                <li><a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/download-software' target='_blank'>Download software</a></li></ul>"	
-	},
-	{ "id":"q2_2",
-		"faq":"How do I activate the software I just downloaded using product keys?",
-		"ans":"Activation isn’t always required for a product.  In some cases, a single key can be used multiple times.  In general, if a product key is required, you’ll be asked to enter it during the installation process or on first use.               <div class='clear'></div>            You can obtain product keys in two places:              <ul>                <li>When you <a href='https://my.visualstudio.com/downloads' target='_blank'>download</a> a product you can click on the 'Get Key' link listed next to the product you’re downloading.</li>                <li>You can also find keys on the <a href='https://my.visualstudio.com/ProductKeys' target='_blank'>Product Keys</a> page in the Subscriber Portal.</li>            </ul>            For more information about obtaining and using product keys, please see these articles:             <ul>                <li><a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/product-keys' target='_blank'>Product keys overview </a></li>                <li><a href='https://docs.microsoft.com/en-us/visualstudio/subscriptions/find-keys' target='_blank'>Find and claim keys </a></li>            </ul>"	
-	},
-	{ "id":"q2_3",
-		"faq":"How do I access my product keys when my subscription expires?",
-		"ans":"To have access to your product keys after your subscription expires, you need to export your claimed keys <span class='gh-bold'>before</span> the subscription expires.  After it expires you will not be able to retrieve your keys.              <div class='clear'></div>            To export your keys, simply click on the  Export all keys  link at the far right of the <a href='https://my.visualstudio.com/ProductKeys' target='_blank'>Product Keys</a> page. An .xml file entitled KeysExport.xml will be created, and you’ll have the option to open or save the file.             You will need to open the file with an application capable of handling .xml files. For example, you can open the file as a read-only workbook in Excel.  The file will contain any keys you’ve claimed, as well as any             'static' keys that are automatically claimed for you."	
-	},
-	{ "id":"q3_1",
-		"faq":"What benefits are available?",
-		"ans":"Available benefits vary by subscription level and are subject to change.  To see which benefits are included for each subscription level, please visit <a href='https://visualstudio.microsoft.com/vs/benefits/' target='_blank'>https://visualstudio.microsoft.com/vs/benefits/</a>.              You can select the subscription you’re interested in, and then see which benefits are available in the various categories - Tools, Azure, Software and Downloads, Services, Training, and Support."	
-	},
-	{ "id":"q3_2",
-		"faq":"How do I use my benefits?",
-		"ans":"Just as the types of benefits vary, so do the methods for activating and using them.  For example, many of our benefits are provided by partners and the processes for setting up accounts, installing software,             and using online resources vary widely.               <div class='clear'></div>            For each benefit available in the Subscriber Portal, we’ve provided articles that include information such as which subscriptions include them, as well as steps to activate the benefits.            <div class='clear'></div>            To learn more, visit <a href='https://docs.microsoft.com/visualstudio/subscriptions' target='_blank'>https://docs.microsoft.com/visualstudio/subscriptions </a>, click on 'Subscriptions' in the left nav pane, and choose 'Benefits'."	
-	}	
+  {
+    "id": "q1_1",
+    "faq": "GHGHShould I sign in using my work email or my personal email?",
+    "ans": "To access a subscription, you should sign in with the email address to which the subscription is assigned. In most cases the subscription was assigned by your work or school, so you will want to use your work or school email and credentials to sign in to the Subscriber Portal."
+  },
+  {
+    "id": "q1_2",
+    "faq": "How do I access the My Visual Studio Subscribers Portal without knowing my login credentials associated with my work email?",
+    "ans": "If you’re not sure what your work email or AAD credentials are, you should reach out to your network administrator. For privacy reasons, Microsoft is unable to provide information about credentials."
+  },
+  {
+    "id": "q1_3",
+    "faq": "How do I find my admin if I have a question?",
+    "ans": "If your subscription was provided to you by your work or school, you can reach out to the administrator(s) on the agreement for assistance. Just connect to <a href=\"https://my.visualstudio.com/subscriptions\" target=\"_blank\">https://my.visualstudio.com/subscriptions</a> and click on the 'Contact my Admin' button. For more information, check out our <a href=\"https://docs.microsoft.com/en-us/visualstudio/subscriptions/contact-my-admin\" target=\"_blank\">Contact your subscriptions administrator</a> article."
+  },
+  {
+    "id": "q1_4",
+    "faq": "When does my subscription expire?",
+    "ans": "Information about your subscription(s) is available in the Subscriber Portal. Connect to <a href=\"https://my.visualstudio.com/subscriptions\" target=\"_blank\">https://my.visualstudio.com/subscriptions</a> to see a list of your subscriptions and to viewinformation such as expiration dates and support information. For retail subscriptions, you can also renew your subscription(s) from that page. <div class=\"clear\"></div>Cloud subscriptions purchased through the Visual Studio Marketplace renew automatically, so if you’re using a monthly or annual cloud subscription, you don’t have to worry about it expiring until you cancel it."
+  },
+  {
+    "id": "q1_5",
+    "faq": "How do I add alternate identities to my subscription and how does this impact my Azure credits and Azure DevOps?",
+    "ans": "Adding an alternate account to your Visual Studio subscription allows you to access the subscription benefits, like Azure DevOps and Azure,with a different identity than that which the subscription is assigned to. In the past, this functionality was available only if your Visual Studio (VS) subscription was assigned to a Microsoft Account (MSA).We have extended this functionality for work or school accounts in Azure Active Directory (Azure AD).<div class=\"clear\"></div>This doesn’t provide a copy of subscription to the other account; it only provides the ability to access the two benefits with the alternate account.<div class=\"clear\"></div>For all subscriptions, you can add a 'work or school account' so you can use that account with your benefits that require a login (VS IDE, Azure DevOps, and Azure).<div class=\"clear\"></div>Adding an alternate ID is easy. Connect to <a href=\"https://my.visualstudio.com/subscriptions\" target=\"_blank\">https://my.visualstudio.com/subscriptions</a>, click on 'Add alternate account', enter the email address and click 'Add'.For more information on using alternate identities, check out our <a href=\"https://docs.microsoft.com/en-us/visualstudio/subscriptions/vs-alternate-identity\" target=\"_blank\">Alternate identities</a> article."
+  },
+  {
+    "id": "q2_1",
+    "faq": "What software downloads are available?",
+    "ans": "The software downloads available depends on the subscription(s) you have. If you have more than one subscription, the downloads for the <span class=\"gh-bold\">highest</span> level subscription are visible from within all of your subscriptions.This makes it easy to get the downloads you want without switching between subscriptions.<div class=\"clear\"></div>Check out this <a href=\"http://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx\" target=\"_blank\">list of the downloads available by subscription level</a>.For more information about downloads, see the following articles:<ul><li><a href=\"https://docs.microsoft.com/en-us/visualstudio/subscriptions/product-availability\" target=\"_blank\">Product availability</a></li><li><a href=\"https://docs.microsoft.com/en-us/visualstudio/subscriptions/download-software\" target=\"_blank\">Download software</a></li></ul>"
+  },
+  {
+    "id": "q2_2",
+    "faq": "How do I activate the software I just downloaded using product keys?",
+    "ans": "Activation isn’t always required for a product. In some cases, a single key can be used multiple times. In general, if a product key is required, you’ll be asked to enter it during the installation process or on first use.<div class=\"clear\"></div>You can obtain product keys in two places:<ul><li>When you <a href=\"https://my.visualstudio.com/downloads\" target=\"_blank\">download</a> a product you can click on the 'Get Key' link listed next to the product you’re downloading.</li><li>You can also find keys on the <a href=\"https://my.visualstudio.com/ProductKeys\" target=\"_blank\">Product Keys</a> page in the Subscriber Portal.</li></ul>For more information about obtaining and using product keys, please see these articles:<ul><li><a href=\"https://docs.microsoft.com/en-us/visualstudio/subscriptions/product-keys\" target=\"_blank\">Product keys overview </a></li><li><a href=\"https://docs.microsoft.com/en-us/visualstudio/subscriptions/find-keys\" target=\"_blank\">Find and claim keys </a></li></ul>"
+  },
+  {
+    "id": "q2_3",
+    "faq": "How do I access my product keys when my subscription expires?",
+    "ans": "To have access to your product keys after your subscription expires, you need to export your claimed keys <span class=\"gh-bold\">before</span> the subscription expires. After it expires you will not be able to retrieve your keys.<div class=\"clear\"></div>To export your keys, simply click on the  Export all keys  link at the far right of the <a href=\"https://my.visualstudio.com/ProductKeys\" target=\"_blank\">Product Keys</a> page. An .xml file entitled KeysExport.xml will be created, and you’ll have the option to open or save the file.You will need to open the file with an application capable of handling .xml files. For example, you can open the file as a read-only workbook in Excel. The file will contain any keys you’ve claimed, as well as any'static' keys that are automatically claimed for you."
+  },
+  {
+    "id": "q3_1",
+    "faq": "What benefits are available?",
+    "ans": "Available benefits vary by subscription level and are subject to change. To see which benefits are included for each subscription level, please visit <a href=\"https://visualstudio.microsoft.com/vs/benefits/\" target=\"_blank\">https://visualstudio.microsoft.com/vs/benefits/</a>.You can select the subscription you’re interested in, and then see which benefits are available in the various categories - Tools, Azure, Software and Downloads, Services, Training, and Support."
+  },
+  {
+    "id": "q3_2",
+    "faq": "How do I use my benefits?",
+    "ans": "Just as the types of benefits vary, so do the methods for activating and using them. For example, many of our benefits are provided by partners and the processes for setting up accounts, installing software,and using online resources vary widely.<div class=\"clear\"></div>For each benefit available in the Subscriber Portal, we’ve provided articles that include information such as which subscriptions include them, as well as steps to activate the benefits.<div class=\"clear\"></div>To learn more, visit <a href=\"https://docs.microsoft.com/visualstudio/subscriptions\" target=\"_blank\">https://docs.microsoft.com/visualstudio/subscriptions </a>, click on 'Subscriptions' in the left nav pane, and choose 'Benefits'."
+  },
+  {
+    "id": "q4_1",
+    "faq": "How do I renew my retail subscription? What is the renewal time period?",
+    "ans": "If you currently have a retail subscription, there are two ways to renew:<ul><li>Connect to <a href=\"https://my.visualstudio.com/subscriptions\" target=\"_blank\">https://my.visualstudio.com/subscriptions</a> and click on the 'Renew' link. </li><li>Visit the <a href=\"https://www.microsoft.com/store/b/home?rtc=1\" target=\"_blank\">Microsoft Store</a> and search for 'Visual Studio subscription' to see the available renewal opportunities. Here are some quick links:<ul><li><a href=\"https://www.microsoft.com/p/visual-studio-enterprise-subscription/dg7gmgf0dst4?activetab=pivot%3aoverviewtab\" target=\"_blank\" aria-label=\"Visual Studio Enterprise\"> Visual Studio Enterprise </a> </li><li><a href=\"https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab\" target=\"_blank\" aria-label=\"Visual Studio Professional\"> Visual Studio Professional </a></li><li><a href=\"https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab\" target=\"_blank\" aria-label=\"Visual Studio Test Professional\"> Visual Studio Test Professional </a></li></ul></li></ul>Note: You must renew your subscription within 30 days of the expiry to qualify for renewal pricing."
+  },
+  {
+    "id": "q4_2",
+    "faq": "How do I renew my cloud subscription?",
+    "ans": "Both monthly and annual cloud subscriptions renew automatically until you cancel them, so there’s no need to take any action to renew them."
+  },
+  {
+    "id": "q5_1",
+    "faq": "What are the monthly Azure credits?",
+    "ans": "Both monthly and annual cloud subscriptions renew automatically until you cancel them, so there’s no need to take any action to renew them."
+  },
+  {
+    "id": "q5_2",
+    "faq": "How much does it cost?",
+    "ans": "There is no cost to use these credits. They are included in your Visual Studio subscription. When you run out of the credit that’s allotted for the month,you won’t be able to continue using it until it resets the next month."
+  },
+  {
+    "id": "q5_3",
+    "faq": "How do I get started?",
+    "ans": "To learn how to set up your Azure credits, please see the 'Activation steps' section of our <a href=\"https://docs.microsoft.com/en-us/visualstudio/subscriptions/vs-azure\" target=\"_blank\">Azure credit article</a>."
+  },
+  {
+    "id": "q5_4",
+    "faq": "Can I use my monthly Azure credits to run production applications?",
+    "ans": "Monthly Azure credits for Visual Studio subscribers are specifically for individual dev/test usage only. To run production workloads, you’ll need to upgrade to a paid Azure subscription,such as <a href=\"https://azure.microsoft.com/en-us/offers/ms-azr-0003p/\" target=\"_blank\">pay-as-you-go</a> pricing."
+  },
+  {
+    "id": "q5_5",
+    "faq": "Can I use my work account to sign in?",
+    "ans": "You must activate the credits using the email associated with your Visual Studio subscription, or your alternate account (for more information on using alternate identities, check out our<a href=\"https://docs.microsoft.com/en-us/visualstudio/subscriptions/vs-alternate-identity\" target=\"_blank\">Alternate identities</a> article)."
+  },
+  {
+    "id": "q5_6",
+    "faq": "Are there any geographic or service restrictions impacting this benefit?",
+    "ans": "Azure subscriptions created via the Visual Studio Subscriptions benefit may be impacted by restrictions that aren’t imposed on paid subscriptions. Certain geographies may not be available for creating VMs and Azure services, and certain service types may not be available. There may be a lower default quota than on paid subscriptions."
+  },
+  {
+    "id": "q5_7",
+    "faq": "My organization has multiple Visual Studio subscribers. Can their monthly Azure credits be pooled?",
+    "ans": "Credit pooling is not available. This benefit is intended for personal use by the Visual Studio subscriber."
+  },
+  {
+    "id": "q5_8",
+    "faq": "Are there any other limitations I should be aware of?",
+    "ans": "The monthly Azure credit for Visual Studio subscribers is for development and testing only and does not carry a financially backed SLA. We reserve the right to suspend any instance(VM or cloud service) that runs continuously for more than 120 hours or if we determine that the instance is being used for production. We are making this capacity available to Visual Studio subscribers ona best-effort basis; there is no guarantee of capacity availability.<div class=\"clear\"></div>The monthly credit does not apply toward purchase of the following services:<ul><li>Support plans</li><li>Application Insights</li><li>Visual Studio subscriptions</li><li>Azure DevOps </li><li>Visual Studio App Center </li><li>Third-party branded products </li><li>Products sold through the <a href=\"https://marketplace.visualstudio.com/\" target=\"_blank\">Visual Studio Marketplace</a></li><li>Products otherwise sold separately from Azure (for example, Azure Active Directory Premium)</li></ul><div class=\"clear\"></div>To purchase these services, you’ll need to remove your <a href=\"https://docs.microsoft.com/en-us/azure/billing/billing-spending-limit\" target=\"_blank\">spending limit</a> and provide a credit card for billing."
+  },
+  {
+    "id": "q5_9",
+    "faq": "Where do I find more information?",
+    "ans": "You can learn more about how your Azure credits work by visiting our <a href=\"https://azure.microsoft.com/en-us/pricing/member-offers/credit-for-visual-studio-subscribers/\" target=\"_blank\">Monthly Azure credits for Visual Studio subscribers</a> page."
+  }
 ]
