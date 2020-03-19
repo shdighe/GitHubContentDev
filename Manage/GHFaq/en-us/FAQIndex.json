@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Managing Visual Studio Subscriptions",
+    "id": "Section1",
+    "children": [
+      "group1_1",
+      "group1_2",
+      "group1_3",
+      "group1_4",
+      "group1_5",
+      "group1_6",
+      "group1_7",
+      "group1_8"
+    ]
+  },
+  {
+    "text": "Software Downloads and Benefits",
+    "id": "Section2",
+    "children": [
+      "group2_1",
+      "group2_2",
+      "group2_3",
+      "group2_4"
+    ]
+  },
+  {
+    "text": "Signing In",
+    "id": "Section3",
+    "children": [
+      "group3_1",
+      "group3_2"
+    ]
+  },
+  {
+    "text": "Renewal and Cancellation",
+    "id": "Section4",
+    "children": [
+      "group4_1",
+      "group4_2"
+    ]
+  }
+]
